@@ -62,7 +62,7 @@ p {
 }
 
 .modal.show .modal-dialog {
-    transform: translateY(80%);
+    transform: translateY(76%);
     position: fixed;
     width: 100%;
     margin: 0 ;
@@ -90,4 +90,9 @@ p {
 }
 
 
- 
+ @media (max-width:428px) {
+    .modal.show .modal-dialog {
+        transform: translateY(80%);
+    }
+    
+ }
